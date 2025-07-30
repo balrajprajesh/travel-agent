@@ -17,7 +17,7 @@ llm = LLM(
     model=GROQ_MODEL,
     api_key=groq_api_key,
     temperature=0.6,
-    max_completion_tokens=200
+    max_completion_tokens=100
 )
 
 
