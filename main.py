@@ -18,7 +18,7 @@ Enter your travel details below, and our AI-powered travel assistant will create
 """)
 
 # User Inputs
-GROQ_API_KEY = st.text_input("GROQ_API_KEY")
+groq_api_key = st.text_input("Enter Groq Key")
 from_city = st.text_input("🏡 From City", "India")
 destination_city = st.text_input("✈️ Destination City", "Rome")
 date_from = st.date_input("📅 Departure Date")
