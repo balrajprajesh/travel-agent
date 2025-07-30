@@ -2,3 +2,4 @@ crewai==0.150.0
 crewai_tools==0.58.0
 duckduckgo-search==8.1.1
 pysqlite3-binary
+langchain_ollama
