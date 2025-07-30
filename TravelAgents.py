@@ -10,7 +10,7 @@ from langchain_ollama.llms import OllamaLLM
 #     model="ollama/llama3.2",
 #     base_url="http://localhost:11434"
 # )
-
+groq_api_key = "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"
 GROQ_MODEL = "groq/llama-3.3-70b-versatile"
 
 llm = LLM(
