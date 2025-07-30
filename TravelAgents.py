@@ -15,7 +15,7 @@ GROQ_MODEL = "groq/llama-3.3-70b-versatile"
 
 llm = LLM(
     model=GROQ_MODEL,
-    api_key=GROQ_API_KEY,
+    api_key=groq_api_key,
     temperature=0.6,
     max_completion_tokens=200
 )
